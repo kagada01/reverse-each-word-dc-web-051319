@@ -2,6 +2,7 @@ def reverse_each_word(string)
   storage = []
   string.collect do |sentence|
     string.reverse
+  do
 end
 
 
