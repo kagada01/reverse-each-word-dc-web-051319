@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   storage = []
-  string.split(//)
+  splitString = string.split(//)
   end
 end
 
