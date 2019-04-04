@@ -2,7 +2,7 @@ def reverse_each_word(string)
   stringSplit = string.split
   stringSplit
     stringSplit.collect do |word|
-      reversedWord = word.reverse
+      reversedWord = word.reverse.to_str
       reversedWord
     end
 end
