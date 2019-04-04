@@ -2,7 +2,7 @@ def reverse_each_word(string)
 newString = string.split
   newString.collect do |sentence|
     almostDone = sentence.reverse
-    
+    almostDone.to_str
   end
 end
 
