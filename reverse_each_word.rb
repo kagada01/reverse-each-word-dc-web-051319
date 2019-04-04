@@ -6,7 +6,7 @@ def reverse_each_word(string)
       reversedWord
       storage.push(reversedWord)
     end
-    storage.join("")
+    storage.join(" ")
 end
 
 
