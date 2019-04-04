@@ -1,7 +1,6 @@
 def reverse_each_word(string)
   stringRev = string.reverse
   stringRev
-  end
 end
 
 
