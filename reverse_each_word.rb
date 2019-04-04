@@ -1,7 +1,6 @@
 def reverse_each_word(string)
   string.each do |sentence|
     almostDone = sentence.reverse
-    almostDone.to_str
   end
 end
 
