@@ -5,7 +5,6 @@ def reverse_each_word(string)
       reversedWord = word.reverse.to_str
       reversedWord
     end
-    reversedWord.join(" ")
 end
 
 
