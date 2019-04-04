@@ -4,7 +4,6 @@ newString = string.split
     almostDone = sentence.reverse
     almostDone.to_str
   end
-  
 end
 
 
