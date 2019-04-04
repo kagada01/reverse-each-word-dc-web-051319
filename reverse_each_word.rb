@@ -3,6 +3,7 @@ def reverse_each_word(string)
   stringSplit
     stringSplit.collect do |word|
       word.reverse
+      word.to_str
     end
 end
 
