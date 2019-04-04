@@ -4,6 +4,7 @@ def reverse_each_word(string)
     stringSplit.collect do |word|
       reversedWord = word.reverse
       word.reverse
+      reversedWord.to_str
     end
 end
 
